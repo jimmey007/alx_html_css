@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: palegoldenrod;
 }
 main{
     display: flex;
@@ -10,8 +11,33 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    border: 5px double brown;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-top-color: brown;
+    border-right-color: brown;
+    border-bottom-color: brown;
+    border-left-color: brown;
+   
+}
+header{
+    padding-top: 0%;
+    max-height: 10%;
+    background-color: blanchedalmond;
+   
+}
+.logo{
+    max-width: 2.5rem;
+    max-height: 3rem;
+    margin: 1rem ;
 }
