@@ -1,0 +1,51 @@
+body{
+    background-image: url(./images/Object.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+h1{
+   font-size: 120px;
+   font-family: Source Sans Pro;
+   text-align: center;
+   color: white;
+   font-weight: 700;
+}
+
+
+.navbar {
+padding-left: 171.59px;
+padding-top: 35.02px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar .img {
+
+width: 167.02px;
+height: 29.46px;
+}
+
+.navbar2 {
+    display: flex;
+    gap: 20px;
+    }
+ .navbar2 li {
+        list-style: none;        }
+
+
+.navbar2 a {
+text-transform: uppercase;
+font-weight: bold;
+color: #333;
+padding: 8px 12px;
+border-radius: 4px;
+}
+.w{flex: auto;
+    text-align: center;
+    align-items: center;
+}
+span{
+    flex: 0.5
+
+}
