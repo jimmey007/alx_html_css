@@ -1,3 +1,6 @@
+* {
+    font-family: Source Sans Pro    ;
+}
 body{
     background-image: url(./images/Object.png);
     background-repeat: no-repeat;
@@ -41,11 +44,85 @@ color: #333;
 padding: 8px 12px;
 border-radius: 4px;
 }
-.w{flex: auto;
-    text-align: center;
-    align-items: center;
-}
-span{
-    flex: 0.5
 
+.all{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.most{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: #C271FF;
+}
+.mmost{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;  
+}
+.most p {
+    flex: 1;
+}
+.Phillip{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: #C271FF;
+}
+.Phillip img{
+    width: 30px;
+    height: 30px;
+}
+.most i{ 
+    flex: 2;
+    color: #C271FF;
+}
+.most i.last{
+    color: #D8D8D8;
+}
+
+.mmost p {
+    color: #C271FF;
+    flex: 1;   
+}
+h2{
+    justify-items: center;
+}
+h4{
+    font-size: 14px;
+}
+#center{
+    text-align: center;
+    font-size: 32px;
+}
+.pop span{
+    color: #C271FF;
+}
+.xmost{
+    display: flex;
+    justify-self: flex-end;
+}
+.xmost p{
+    justify-self: flex-end;
+}
+.free{
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    text-align: center;  
+     
+}
+.freesection{
+    background-color: darkblue; 
+}
+.freesection h2,p,h3{
+    text-align: center;
+    color: white;
 }
