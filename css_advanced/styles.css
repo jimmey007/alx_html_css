@@ -45,34 +45,72 @@ padding: 8px 12px;
 border-radius: 4px;
 }
 
-.all{
-
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding: 20px;
+.all {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
 }
-.most{
+.mmost {
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+}
+.mmost p {
+    text-align: left;
+}
+.Phillip{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+    color: #C271FF;
+}
+.Phillip img{
+    
+  width: 30px;
+  height: 30px;
+ border-radius: 50%;
+    
+}
+.star{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.star2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.star2 i{ 
+    color: #C271FF;
+}
+.star2 i.last{
+    color: #929090;
+}
+.play{
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    z-index: 1;}
+
+/*
+.most{
+    display: grid;
     align-items: center;
     gap: 5px;
     color: #C271FF;
 }
 .mmost{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
     gap: 5px;  
 }
-.most p {
-    flex: 1;
-}
+
 .Phillip{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    display: grid;
     align-items: center;
     gap: 5px;
     color: #C271FF;
@@ -81,17 +119,17 @@ border-radius: 4px;
     width: 30px;
     height: 30px;
 }
-.most i{ 
-    flex: 2;
-    color: #C271FF;
+    .xmost{
+    display: flex;
+    justify-self: flex-end;
 }
-.most i.last{
-    color: #D8D8D8;
-}
+.xmost p{
+    justify-self: flex-end;
+}*/
+
 
 .mmost p {
     color: #C271FF;
-    flex: 1;   
 }
 h2{
     justify-items: center;
@@ -106,13 +144,7 @@ h4{
 .pop span{
     color: #C271FF;
 }
-.xmost{
-    display: flex;
-    justify-self: flex-end;
-}
-.xmost p{
-    justify-self: flex-end;
-}
+
 .free{
     display: grid;
     grid-template-columns:  25% 25% 25% 25%;
@@ -120,9 +152,29 @@ h4{
      
 }
 .freesection{
-    background-color: darkblue; 
+    background-color: #071629; 
 }
 .freesection h2,p,h3{
     text-align: center;
     color: white;
+}
+.freesection button{
+    align-items: center;
+
+}
+.faq{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,25%);
+    gap: 250px;
+    justify-content: center;
+    align-content: center;
+    justify-items: left;
+}
+.faq h3{
+    color: black;
+   text-align: left;
+}
+.faq1{
+    font-size: 60px;
+    text-align: center;
 }
