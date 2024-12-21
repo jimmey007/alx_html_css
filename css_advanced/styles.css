@@ -1,34 +1,36 @@
 * {
-    font-family: Source Sans Pro    ;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 body{
     background-image: url(./images/Object.png);
     background-repeat: no-repeat;
     background-size:contain;
+    width: 1440px;
+    height: 1093px;
+    position: relative;
 }
 h1{
    font-size: 120px;
-   font-family: Source Sans Pro;
    text-align: center;
    color: white;
-   font-weight: 700;
+   margin-bottom: 20px;
 }
-
-
 .navbar {
 padding-left: 171.59px;
 padding-top: 35.02px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: 20px 50px;
+color: white;
 }
-
+.navbar a{
+    color: white;
+}
 .navbar .img {
-
 width: 167.02px;
 height: 29.46px;
 }
-
 .navbar2 {
     display: flex;
     gap: 20px;
@@ -40,7 +42,7 @@ height: 29.46px;
 .navbar2 a {
 text-transform: uppercase;
 font-weight: bold;
-color: #333;
+color: #ffffff;
 padding: 8px 12px;
 border-radius: 4px;
 }
@@ -50,6 +52,11 @@ border-radius: 4px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     justify-items: center;
+    margin-top: 50px;
+}
+.all h3{
+    color: black;
+    text-align: left;
 }
 .mmost {
     padding: 15px;
@@ -97,42 +104,12 @@ border-radius: 4px;
     left: 35%;
     z-index: 1;}
 
-/*
-.most{
-    display: grid;
-    align-items: center;
-    gap: 5px;
-    color: #C271FF;
-}
-.mmost{
-    display: grid;
-    gap: 5px;  
-}
-
-.Phillip{
-    display: grid;
-    align-items: center;
-    gap: 5px;
-    color: #C271FF;
-}
-.Phillip img{
-    width: 30px;
-    height: 30px;
-}
-    .xmost{
-    display: flex;
-    justify-self: flex-end;
-}
-.xmost p{
-    justify-self: flex-end;
-}*/
-
-
 .mmost p {
     color: #C271FF;
 }
 h2{
     justify-items: center;
+    margin: 50px;
 }
 h4{
     font-size: 14px;
@@ -148,27 +125,41 @@ h4{
 .free{
     display: grid;
     grid-template-columns:  25% 25% 25% 25%;
-    text-align: center;  
+    text-align: center; 
+    line-height: 3rem; 
      
 }
 .freesection{
     background-color: #071629; 
+    width: 1600px;
+    
+}
+.freesection h2{
+    font-size: 32px;
 }
 .freesection h2,p,h3{
+    padding: 10px;
     text-align: center;
     color: white;
+    
 }
 .freesection button{
     align-items: center;
-
+    justify-items: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-bottom: 50px;
 }
+
 .faq{
     display: grid;
     grid-template-columns: repeat(auto-fit,25%);
-    gap: 250px;
+    gap: 250px ;
     justify-content: center;
     align-content: center;
     justify-items: left;
+    padding-bottom: 50px;
+    
 }
 .faq h3{
     color: black;
@@ -177,4 +168,123 @@ h4{
 .faq1{
     font-size: 60px;
     text-align: center;
+}
+.w{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+.w span { 
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+.wflex{
+    display: flex;
+    gap: 60px;  
+    font-size: 16px;  
+}
+button {
+    padding: 10px 20px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+    
+
+.learn h2{
+    text-align: center;
+    margin: 110px  0;
+    color: white;
+    font-weight: 100;
+}
+.learn h2 strong{
+   
+    color: #a067d9;
+}
+.flexlearn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+.flexlearn img{
+    display: flex;
+    border-radius: 100px;
+}
+.flexc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    column-gap: 11px;
+}
+.flexc h3 , p{
+    padding: 10px;
+    line-height: 1.5rem;
+
+}
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a067d9;
+    color: white;
+    padding: 20px;
+    height: 392px;
+    width: 1570px;
+    position: relative;
+    margin-top: 42px;
+    gap: 20px;}
+.name2 img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+ blockquote {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+.name1{
+    background-color: #a067d9;
+    width: 1440px;
+}
+.ddd{
+    text-align: left;
+    justify-items: left;
+}
+.freesection span{
+    color: #a067d9;
+    font-size: 32px;
+}
+footer{
+    padding: 50px;
+    margin-top: 30px;
+    background-color: #071629;
+    
+}
+.flexfooter{
+    color: white;
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+
+    
+}
+.flexfooter2 {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
 }
