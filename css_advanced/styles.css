@@ -195,8 +195,15 @@ button {
     cursor: pointer;
     
 }
-    
-
+.learn
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+}
 .learn h2{
     text-align: center;
     margin: 110px  0;
@@ -208,11 +215,11 @@ button {
     color: #a067d9;
 }
 .flexlearn{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-
 }
 .flexlearn img{
     display: flex;
@@ -225,7 +232,7 @@ button {
     flex-direction: column;
     text-align: center;
     max-width: 200px;
-    column-gap: 11px;
+    gap: 4;
 }
 .flexc h3 , p{
     padding: 10px;
