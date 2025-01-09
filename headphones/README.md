@@ -23,7 +23,6 @@ Describe your project in detail:
 
 Provide screenshots or diagrams if necessary.
 
----
 
 ## Features
 
