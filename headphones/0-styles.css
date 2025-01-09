@@ -61,7 +61,7 @@ ul li a:hover {
   background-size: cover;
   background-position: center center;
     background-repeat: no-repeat; 
-   background-image: url("/images/headphones_hero_1.jpg");
+   background-image: url("images/headphones_hero_1.jpg");
    position: relative;
    font-family: "SourceSansPro-Black","SourceSansPro-Regular","SourceSansPro-ExtraLight";
 
@@ -164,7 +164,7 @@ flex-direction: row;
     background-size: cover;
   background-position: center center;
     background-repeat: no-repeat; 
-   background-image: url("/images/headphones_hero_2.jpg");
+   background-image: url("images/headphones_hero_2.jpg");
    position: relative;
 }
 .div2{
@@ -185,7 +185,7 @@ flex-direction: row;
 .pentagone{
  background-repeat: no-repeat;
  background-position: center center;
- background-image: url(/images/pentagone.png);
+ background-image: url(images/pentagone.png);
 text-align: center;
 display: flex;
 background-size: contain;
