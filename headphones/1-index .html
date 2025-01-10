@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="0-styles.css">
+    <link rel="stylesheet" href="1-styles .css">
     <title>headphones</title>
 </head>
 <body>
@@ -107,17 +107,21 @@
     </div>
         </section>
         <section>
-        <div>
-            <h2>Contact us</h2>
-            <hr>
-            <p>Name</p>
-            <hr>
-            <p>Email</p>
-            <hr>
-            <p>Your message</p>
-            <hr>
-            <button>Call To Action</button>
-        </div>
+            <div class="form-container">
+                <h2>Contact us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+        
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+        
+                    <button type="submit">CALL TO ACTION</button>
+                </form>
+            </div>
         </section>
         </main>
         <footer>
